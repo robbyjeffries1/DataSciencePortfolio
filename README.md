@@ -1,7 +1,7 @@
 # DataSciencePortfolio
 ## Contents
 * ### Machine Learning
-  * [Facebook Usage](Python/Facebook): I visualize my lifetime Facebook usage using Python. I
+  * [Facebook Usage](Python/Facebook): I visualize my lifetime Facebook usage using Python. 
   * [Olympic Gold Medal Prediction](Python/OlympicGoldMedals): I predict Team USA's gold medal performance in Python using simple linear regression, pandas, numpy, and matplotlib.
   * [Housing Price Prediction](R/HousingPrices): I predict housing prices in R using test and training data.
   * [SQL](SQL): TBD
