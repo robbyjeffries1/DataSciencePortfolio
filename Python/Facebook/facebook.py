@@ -15,7 +15,7 @@ import seaborn as sns
 import numpy as np
 
 # read the json file into a dataframe
-df = pd.read_json('my_posts.json')
+df = pd.read_json('/Users/robbyjeffries/my_posts.json')
 
 print(df.head(3))
 
