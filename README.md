@@ -1,6 +1,4 @@
 # DataSciencePortfolio
-##### Robby Jeffries
-
 ## Contents
 * R
   * I predict housing prices using test and training data.
@@ -8,7 +6,6 @@
   * I predict Team USA's gold medal performance using simple linear regression, pandas, numpy, and matplotlib.
 * SQL
   * TBD
-
 ## Why?
 This repository documents my projects using different programming languages. As I once said:
 > "It is better to fail because of action than to succeed at doing nothing."
