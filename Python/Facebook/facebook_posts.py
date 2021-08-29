@@ -41,8 +41,8 @@ print(post_counts)
 ## Plot the results!
 
 # set figure size and font size
-sns.set(rc={'figure.figsize':(40,20)})
-sns.set(font_scale=3)
+sns.set(rc={'figure.figsize':(8,6)})
+sns.set(font_scale=1.5)
 
 # set x labels
 x_labels = post_counts.index
