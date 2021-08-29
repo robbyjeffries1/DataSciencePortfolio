@@ -12,4 +12,5 @@
 ## Why?
 This repository documents my projects using different programming languages. As I once said:
 > "It is better to fail because of action than to succeed at doing nothing."
+
 In keeping with that mentality, this repository will document both successful projects and works-in-progress to demonstrate my commitment to continuous learning.
