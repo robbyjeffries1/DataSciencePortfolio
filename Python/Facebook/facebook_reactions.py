@@ -5,7 +5,8 @@ Created on Sun Aug 29 17:38:39 2021
 
 @author: robbyjeffries
 
-This file creates a graph, showing my frequency of Facebook posts per month.
+This file creates a graph, showing my frequency of Facebook likes and
+comments per month
 """
 
 # import libraries
