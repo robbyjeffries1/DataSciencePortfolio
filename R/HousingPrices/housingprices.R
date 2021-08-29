@@ -19,7 +19,7 @@ fit <- rpart(Price ~ Rooms + Bathroom + Landsize + BuildingArea + YearBuilt  + L
 
 # plot our regression tree
 plot(fit, uniform=TRUE)
-# add text labels & make them 60% as big as they are by defauld
+# add text labels & make them 60% as big as they are by default
 text(fit, cex=0.6)
 
 print("Making predicitons for the following 5 houses:")
