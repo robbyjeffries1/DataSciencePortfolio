@@ -1,9 +1,9 @@
 # DataSciencePortfolio
 ## Contents
 * ### Machine Learning
-  * [DataSciencePortfolio](R/HousingPrices): I predict housing prices in R using test and training data.
-  * [DataSciencePortfolio](Python/OlympicGoldMedals): I predict Team USA's gold medal performance in Python using simple linear regression, pandas, numpy, and matplotlib.
-  * [DataSciencePortfolio](SQL): TBD
+  * [Housing Price Prediction](R/HousingPrices): I predict housing prices in R using test and training data.
+  * [Olympic Gold Medal Prediction](Python/OlympicGoldMedals): I predict Team USA's gold medal performance in Python using simple linear regression, pandas, numpy, and matplotlib.
+  * [SQL](SQL): TBD
 ## Why?
 This repository documents my projects using different programming languages. As I once said:
 > "It is better to fail because of action than to succeed at doing nothing."
