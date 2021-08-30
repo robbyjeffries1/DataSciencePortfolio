@@ -15,7 +15,7 @@ comments per month
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
+import numpy as np 
 
 # read the json file into a dataframe
 df = pd.read_json('/Users/robbyjeffries/my_reactions.json')
