@@ -1,7 +1,7 @@
 # Code used to create charts for 1.2 Grammar of Graphics
 # Not for distribution to students
 
-library(tidyverse)
+library(tidyverse) # Makes tidyverse accessible to this script
 baseball <- read_csv("/Users/mchapple/Desktop/baseball.csv")
 
 baseball <- baseball %>%

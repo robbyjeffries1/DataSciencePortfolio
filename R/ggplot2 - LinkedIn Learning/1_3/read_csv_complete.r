@@ -17,7 +17,9 @@ college <- read_csv('http://672258.youcanlearnit.net/college.csv')
 # Take a look at the data
 summary(college)
 
-# Convert state, region, highest_degree, control, and gender to factors
+# Convert state, region, highest_degree, control, and gender to factors.
+# This will group the states with same name together, regions with the same
+# name, etc.
 college <- college %>%
   mutate(state=as.factor(state), region=as.factor(region),
          highest_degree=as.factor(highest_degree),
