@@ -18,7 +18,7 @@ ggplot(data=college) +
   theme(plot.background=element_blank()) +
   scale_x_discrete(name="Region") +
   scale_y_continuous(name="Number of Schools", limits=c(0,500)) +
-  scale_fill_manual(values=c("orange","blue"))
+  scale_fill_manual(values=c("gray","red"))
 
 # Change the legend title
 ggplot(data=college) +
