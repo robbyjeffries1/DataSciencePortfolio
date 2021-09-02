@@ -14,11 +14,11 @@ college <- college %>%
 # How many schools are in each region?
 # This calls for a bar graph!
 ggplot(data=college) +
-  geom_bar(mapping=aes(x=region))
+  geom_bar(mapping=aes(x=region)) # aes = aesthetic
 
 # Break it out by public vs. private
 ggplot(data=college) +
-  geom_bar(mapping=aes(x=region, color=control))
+  geom_bar(mapping=aes(x=region, color=control)) 
 
 # Well, that's unsatisfying!  Try fill instead of color
 ggplot(data=college) +
