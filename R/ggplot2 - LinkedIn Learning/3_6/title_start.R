@@ -19,4 +19,7 @@ ggplot(data=college) +
   scale_x_discrete(name="Region") +
   scale_y_continuous(name="Number of Schools", limits=c(0,500)) +
   scale_fill_manual(values=c("orange","blue"), guide=guide_legend(title="Institution Type", label.position="bottom", nrow=1, keywidth=2.5)) +
-  theme(legend.position="bottom")
+  theme(legend.position="bottom") +
+  ggtitle("More colleges are in the Southern U.S. than any other region.", 
+          subtitle="Source: U.S. Dept. of Education")
+

@@ -6,5 +6,5 @@ library(tidyverse)
 library(ggmap)
 
 # Insert your own API Key below
-register_google(key="YOUR_API_KEY_HERE")
+register_google(key="AIzaSyA7abR6711_8hmR_kUKMMx0UKWFyNEYoNI")
 

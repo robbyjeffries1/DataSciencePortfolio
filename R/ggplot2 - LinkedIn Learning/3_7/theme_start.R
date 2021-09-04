@@ -4,6 +4,8 @@
 
 # Load the dataset as described in Video 1.3
 library(tidyverse)
+library(ggthemes)
+
 college <- read_csv('http://672258.youcanlearnit.net/college.csv')
 college <- college %>%
   mutate(state=as.factor(state), region=as.factor(region),
@@ -12,5 +14,9 @@ college <- college %>%
          loan_default_rate=as.numeric(loan_default_rate))
 
 # Create the bar graph from Video 2.3
+# try different themes: solarized, excel, wsj, economist, fivethirtyeight
 ggplot(data=college) +
-  geom_bar(mapping=aes(x=region, fill=control))
+  geom_bar(mapping=aes(x=region, fill=control)) + 
+  theme_fivethirtyeight()
+
+
